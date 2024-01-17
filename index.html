@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-sscale = 1.0">
+    <title>tobintojo</title>
+    <link href="style.css" rel="stylesheet" />
+    <link 
+      rel="stylesheet" 
+      href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" 
+      integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <nav class = "navbar">
+        <div class = "navbar__container">
+          <a href = "/" id = "navbar__logo"><i class="fas fa-gem"></i>Tobin Tojo</a>
+          <div class = "navbar__toggle" id = "mobile-menu">
+            <span class = "bar"></span>
+            <span class = "bar"></span>
+            <span class = "bar"></span>
+          </div>
+          <ul class = "navbar__menu">
+            <li class = "navbar__item">
+              <a href = "#home" class = "navbar__links"> Home </a>
+            </li>
+            <li class = "navbar__item">
+              <a href = "#projects" class = "navbar__links"> Projects </a>
+            </li>
+            <li class = "navbar__item">
+              <a href = "/resume.html" class = "navbar__links"> Resume </a>
+            </li>
+            <li class = "navbar__button">
+              <a href = "#contact" class = "button"> Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div div id = "home" class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Hi I'm</h1>
+          <h2>Tobin Tojo</h2>
+          <p>Computer Science undergrad student</p>
+          <form action = "https://www.linkedin.com/in/tobintojo/">
+          <button class ="main__btn"><a>Linkedin</a></button>
+          </form>
+          <form action = "https://tobintojo.itch.io/">
+          <button class ="main__btn"><a>Itch.io</a></button>
+          </form>
+          <form action = "https://github.com/TobinTojo">
+          <button class ="main__btn"><a>Github</a></button>
+          </form>
+        </div>
+        <div class="main__img--container">
+          <img src="images/pic1.svg" alt="pic" id="main__img">
+        </div>
+      </div>
+    </div>
+    <div class="services">
+      <div class="services__container">
+        <div class="services__content">
+          <h1>About Me</h1>
+          <p>I am a third year student studying Computer Science (BSc) at Wilfrid Laurier University. I have been learning to program for the past seven years and specialize in numerous programming languages such as Java, C and Python. I have a keen interest in the Unity game engine and I have been developing computer and mobile games for over a year. I have also competed in game jams in which I have placed 7th at the international level. Feel free to contact me for any inquiries.</p>
+        </div>
+        <div class="about__img--container">
+          <img src="images/portrait.jpg" alt="pic" id="about__img">
+        </div>
+      </div>
+    </div>
+    <div id = "projects" class="projects">
+      <div class="projects__container">
+        <div class="projects__content">
+          <h1>Projects</h1>
+          <h2>Tobin's Weather Updater</h2>
+          <!-- WeatherUpdater Preview -->
+          <div class="preview-frame">
+              <!-- Thumbnail Image -->
+              <div class="thumbnail-container">
+                  <img src="images/weather_thumbnail.png" alt="WeatherUpdater Thumbnail">
+              </div>
+
+              <!-- Title and Author Information -->
+              <div class="info-container">
+                  <h3>Weather Updater</h3>
+
+                  <!-- Play Button -->
+                <a href="https://tobintojo.github.io/WeatherUpdater/" target="_blank" class="launch-button">
+                    Launch Project
+                </a>
+              </div>
+          </div>
+          <p>A website that shows weather statistics based on the location the user inputs. OpenWeatherMap API was used to retrieve these statistics and Geolocation API is used to get the current location of the user.</p>
+          <h2>Recipe Search Engine</h2>
+          <!-- Recipe Search Engine Preview -->
+          <div class="preview-frame recipe-frame">
+              <!-- Thumbnail Image -->
+              <div class="thumbnail-container">
+                  <img src="images/recipe_thumbnail.png" alt="Recipe Search Engine Thumbnail">
+              </div>
+
+              <!-- Title -->
+              <div class="info-container">
+                  <h3>Recipe Search Engine</h3>
+
+                  <!-- Launch Button -->
+                  <a href="https://tobintojo.github.io/RecipeSearchEngine/" target="_blank" class="launch-button">
+                      Launch Project
+                  </a>
+              </div>
+          </div>
+          <p>Made a recipe search engine website using the Edamam API to fetch relevant recipes based on the user's input.</p>
+          <h2>Sonic Aether</h2>
+          <div class="preview-frame game-frame">
+              <!-- Thumbnail Image -->
+              <div class="thumbnail-container">
+                  <img src="images/sonic_aether_thumbnail.png" alt="Sonic Aether Thumbnail">
+              </div>
+
+              <!-- Title -->
+              <div class="info-container">
+                  <h3>Sonic Aether</h3>
+
+                  <!-- Launch Button -->
+                  <a href="https://sonicfangameshq.com/forums/showcase/sonic-aether.1628/" target="_blank" class="launch-button">
+                      Visit Showcase
+                  </a>
+              </div>
+          </div>
+          <p>Created a cool 3D platformer using C# and Unity for the Sonic Amateur Games Expo, leading to over 1000 downloads and amassed a Youtube following of 900.</p>
+        </div>
+      </div>
+    </div>
+    <div div id = "contact" class="contact">
+      <div class="contact__container">
+        <div class="contact__content">
+          <h1>Contact</h1>
+          <p>Email - tobintojo@gmail.com</p>
+          <p>Tel - 437-255-3103</p>
+        </div>
+      </div>
+    </div>
+    <script src = "app.js"></script>
+  </body>
+</html>
